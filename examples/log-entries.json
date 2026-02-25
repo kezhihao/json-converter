@@ -1,0 +1,44 @@
+{
+  "logs": [
+    {
+      "timestamp": "2024-02-25T10:30:15Z",
+      "level": "INFO",
+      "service": "auth-service",
+      "message": "User logged in successfully",
+      "userId": "user-123",
+      "ip": "192.168.1.100",
+      "duration": 45
+    },
+    {
+      "timestamp": "2024-02-25T10:30:18Z",
+      "level": "ERROR",
+      "service": "payment-service",
+      "message": "Payment processing failed",
+      "userId": "user-456",
+      "ip": "192.168.1.105",
+      "errorCode": "CARD_DECLINED",
+      "duration": 230
+    },
+    {
+      "timestamp": "2024-02-25T10:30:22Z",
+      "level": "WARN",
+      "service": "api-gateway",
+      "message": "Rate limit approaching",
+      "userId": "user-789",
+      "ip": "192.168.1.110",
+      "requests": 95,
+      "limit": 100,
+      "duration": 12
+    },
+    {
+      "timestamp": "2024-02-25T10:30:30Z",
+      "level": "INFO",
+      "service": "notification-service",
+      "message": "Email sent successfully",
+      "userId": "user-123",
+      "email": "user@example.com",
+      "template": "welcome-email",
+      "duration": 890
+    }
+  ]
+}

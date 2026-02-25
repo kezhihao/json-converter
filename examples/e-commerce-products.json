@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "SKU-001",
+      "name": "Wireless Mouse",
+      "price": 29.99,
+      "currency": "USD",
+      "category": "Electronics",
+      "inStock": true,
+      "quantity": 150,
+      "specs": {
+        "wireless": true,
+        "battery": "AA",
+        "dpi": 1600
+      }
+    },
+    {
+      "id": "SKU-002",
+      "name": "Mechanical Keyboard",
+      "price": 89.99,
+      "currency": "USD",
+      "category": "Electronics",
+      "inStock": true,
+      "quantity": 75,
+      "specs": {
+        "switches": "Cherry MX Red",
+        "backlight": "RGB",
+        "wireless": false
+      }
+    },
+    {
+      "id": "SKU-003",
+      "name": "USB-C Hub",
+      "price": 49.99,
+      "currency": "USD",
+      "category": "Accessories",
+      "inStock": false,
+      "quantity": 0,
+      "specs": {
+        "ports": 7,
+        "powerDelivery": "100W",
+        "hdmi": "4K@60Hz"
+      }
+    }
+  ]
+}
