@@ -1,0 +1,49 @@
+{
+  "name": "json-converter",
+  "version": "1.0.0",
+  "description": "Convert JSON to 15+ formats: CSV, SQL, XML, YAML, TOML, TypeScript, Go, Rust, Java, C#, Python, GraphQL, Protobuf, Avro, Parquet",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "json-converter": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node dist/cli.js",
+    "test": "node --test test/**/*.test.js"
+  },
+  "keywords": [
+    "json",
+    "converter",
+    "csv",
+    "sql",
+    "yaml",
+    "xml",
+    "toml",
+    "typescript",
+    "golang",
+    "rust",
+    "java",
+    "csharp",
+    "python",
+    "graphql",
+    "protobuf",
+    "avro",
+    "parquet",
+    "cli",
+    "data-transformation"
+  ],
+  "author": "Auto Company",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
