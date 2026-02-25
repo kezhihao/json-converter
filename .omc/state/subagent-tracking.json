@@ -1,0 +1,17 @@
+{
+  "agents": [
+    {
+      "agent_id": "a814ec9762e993dc8",
+      "agent_type": "oh-my-claudecode:build-fixer",
+      "started_at": "2026-02-25T06:44:34.888Z",
+      "parent_mode": "none",
+      "status": "completed",
+      "completed_at": "2026-02-25T06:47:03.862Z",
+      "duration_ms": 148974
+    }
+  ],
+  "total_spawned": 1,
+  "total_completed": 1,
+  "total_failed": 0,
+  "last_updated": "2026-02-25T06:47:03.964Z"
+}
