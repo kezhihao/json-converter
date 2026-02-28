@@ -2,6 +2,7 @@
 
 > **Convert JSON to 15+ formats with a single command** | CLI tool for data format conversion - JSON to CSV, SQL, XML, YAML, TOML, TypeScript, and more. Privacy-first, runs offline, zero dependencies on external services.
 
+[![CI](https://github.com/kezhihao/json-converter/actions/workflows/ci.yml/badge.svg)](https://github.com/kezhihao/json-converter/actions/workflows/ci.yml)
 [![npm version](https://badge.fury.io/js/json-converter.svg)](https://www.npmjs.com/package/json-converter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
